@@ -128,7 +128,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>tys-automation</projectName>
+							<projectName>automation</projectName>
 							<checkBuildResult>false</checkBuildResult>
 							<projectName>${project.artifactId}</projectName>
 							<buildNumber>${project.build}</buildNumber>

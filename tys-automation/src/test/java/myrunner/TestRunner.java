@@ -48,7 +48,7 @@ public class TestRunner
 		jsonFiles.add("target\\cucumber.json");
 
 		String buildNumber = "101";
-		String projectName = "TYS Automation";
+		String projectName = "Automation";
 		Configuration configuration = new Configuration(reportOutputDirectory, projectName);
 		configuration.setBuildNumber(buildNumber);
 

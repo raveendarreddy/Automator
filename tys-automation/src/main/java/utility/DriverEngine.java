@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 
 public class DriverEngine extends Base
 {	
-	public static Properties REGIONAL;
 	private static final String XPATH = "xpath";
 	private static final String NAME = "name";
 	private static final String CLASS = "class";

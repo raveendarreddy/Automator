@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TYS Automation Suite" parallel="tests" thread-count="1">
+<suite name="Automation Suite" parallel="tests" thread-count="1">
   
   <test name="Regression Test using Google Chrome" preserve-order="true">  
   <parameter name="Browser" value="Chrome"/>
