@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite" parallel="tests" thread-count="1">
+<suite name="Automation Suite" parallel="tests" thread-count="2">
   
   <test name="Regression Test using Google Chrome" preserve-order="true">  
   <parameter name="Browser" value="Chrome"/>
@@ -9,10 +9,10 @@
     </classes>
   </test> 
   
-<!--    <test name="Regression Test using Firefox" preserve-order="true">  
+   <test name="Regression Test using Firefox" preserve-order="true">  
   <parameter name="Browser" value="Firefox"/>
     <classes>
       <class name="myrunner.TestRunner"/>
     </classes>
-  </test> --> 
+  </test> 
 </suite> 
